@@ -14,9 +14,14 @@ body {
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
-    border:none;
+    border: none;
     background: #FD6E0A;
     padding: 16px 35px;
+}
+
+/* header style */
+.header {
+    background-color: #FFF8F3;
 }
 
 /* nav-bar related style */
@@ -24,6 +29,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 
 }
 
@@ -46,4 +52,13 @@ nav a {
     color: var(#181818);
     font-size: 45px;
     font-weight: 800;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
