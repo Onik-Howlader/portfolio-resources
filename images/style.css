@@ -13,20 +13,23 @@ body {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 700;
-    width: 150px;
-    height: 64px;
     border-radius: 5px;
+    border:none;
     background: #FD6E0A;
+    padding: 16px 35px;
 }
 
 /* nav-bar related style */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
