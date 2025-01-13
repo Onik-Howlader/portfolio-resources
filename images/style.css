@@ -105,7 +105,12 @@ nav a {
     margin-bottom: 30px;
 }
 
+
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .about-section {
     color: #181818;
     text-align: center;
@@ -124,6 +129,6 @@ font-weight: 400;
 .about {
     border-radius: 10px;
     background: #FFF8F3;
-    padding: 130px 156px;
-    margin: 130px 230px;
+ padding: 130px;
+ margin: 130px;
 }
