@@ -40,7 +40,12 @@ body {
     background-color: #FFF8F3;
     margin-left: 30px;
 }
-
+.btn-primary:hover{
+    transform: scale(1.1,1);
+}
+.btn-primary1:hover{
+    transform: scale(1.1,1);
+}
 /* nav-bar related style */
 nav {
     display: flex;
@@ -69,6 +74,9 @@ nav a {
     color: var(#181818);
     font-size: 45px;
     font-weight: 800;
+}
+.nav-title:hover{
+    transform: scale(3,3);
 }
 
 .banner {
@@ -156,4 +164,16 @@ main {
 
 .info-des {
     font-weight: 700;
+}
+nav .scale:hover{
+    transform: scale(1.5,1.5);
+    background-color: tomato;
+    border-radius: 3.5px;
+}
+nav .tran:hover{
+    transform: scale(.93, .93);
+    color: tomato;
+}
+nav .skew:hover{
+    transform: skew(5deg, 5deg);
 }
