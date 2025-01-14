@@ -22,10 +22,15 @@ body {
 /* header style */
 .header {
     background-color: #FFF8F3;
-    background-image: url('header_bg.png');
+    background-image: url('header_bg.png'), url(developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
+
+/* #developerbag{
+    /* background-image: url(developer.png); */
+    /* background-position: bottom left;
+}  */
 
 #btn-padding {
     padding: 18px 23px 18px 58px;
@@ -91,6 +96,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .banner .profile-pic {
@@ -229,7 +235,12 @@ nav .skew:hover {
     display: flex;
     gap: 24px;
     align-items: center;
+
 }
+.education-section{
+    margin: 0px 100px;
+}
+
 .education{
     font-size: 30px;
     margin-bottom: 30px;
