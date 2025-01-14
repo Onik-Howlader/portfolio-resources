@@ -27,10 +27,6 @@ body {
     background-position: bottom right, top left;
 }
 
-/* #developerbag{
-    /* background-image: url(developer.png); */
-    /* background-position: bottom left;
-}  */
 
 #btn-padding {
     padding: 18px 23px 18px 58px;
@@ -116,7 +112,7 @@ nav a {
 
 .banner-title {
     color: #474747);
-    font-size: 85px;
+    font-size: 60px;
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 20px
@@ -262,4 +258,75 @@ nav .skew:hover {
 }
 .education-part hr{
     margin: 30px 47px 30px 0px;
+}
+
+/* footer section styles */
+
+footer{
+    background-color: tomato;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+font-size: 2em;
+color: black;
+opacity: 0.9;
+}
+
+/* hover effect on social media */
+.socialicons a:hover{
+    background-color: #F68571;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 30px 0px;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0px;
+margin-right: 30px;
+}
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
 }
